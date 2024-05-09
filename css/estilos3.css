@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: white;
+}
+
+/*MENU*/
+
+nav{
+    max-width: 1200px;
+    height: 100%;
+    margin-left: 75px;
+    margin-top: 10px;
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ff670f+0,c94d00+0 */
+background: radial-gradient(ellipse at center,  rgba(255,103,15,1) 0%,rgba(201,77,0,1) 0%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    border-radius: 20px 20px 0 0;
+
+}
+
+
+#menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#menu a {
+    color: black;
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ff670f+0,c94d00+0 */
+background: radial-gradient(ellipse at center,  rgba(255,103,15,1) 0%,rgba(201,77,0,1) 0%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    font-family: arial;
+    font-size: 18px;
+}
+
+#menu a:hover{
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ff670f+0,c94d00+0,f25c00+23,f25c00+23 */
+background: linear-gradient(to bottom,  rgba(255,103,15,1) 0%,rgba(201,77,0,1) 0%,rgba(242,92,0,1) 23%,rgba(242,92,0,1) 23%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+
+
+/*MENU*/
+
+
+
+
+/*CABECERA*/
+
+
+header {
+    max-width: 1200px;
+    min-height: 100px;
+    background: navajowhite;
+    margin: 0 auto;
+}
+h1{
+    padding-top: 200px;
+    padding-left: 133px;
+    color: azure;
+    font-size: 50px;
+    padding-bottom: 10px;
+}
+
+
+
+/*CABECERA*/
+
+
+/*CONTENIDO*/
+
+#contenido{
+    width: 1200px;
+    min-height: 500px;
+    background: burlywood;
+    margin-left: 75px;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+#contenido img{
+    width: 930px;
+    height: 350px;
+    padding-top: 80px;
+}
+
+
+/*CONTENIDO*/
+
+
+
+
+/*PIE DE PAGINA*/
+
+footer{
+    width: 1200px;
+    background: #000;
+    margin: 0 auto;
+    border-radius: 0 0 20px 20px;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: arial;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/*PIE DE PAGINA*/

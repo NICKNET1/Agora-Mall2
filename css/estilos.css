@@ -1,0 +1,293 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+
+body{
+    background: #FF9800;
+    padding: 20px;
+}
+
+/*CABECERA*/
+header{
+    max-width: 1000px;
+    min-height: 130px;
+    margin: 0 auto;
+    border-radius: 20px 20px 0 0;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ff7f04+0,ffad5b+0 */
+    background: radial-gradient(ellipse at center,  #ff7f04 0%,#ffad5b 0%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+}
+
+.imagenes{
+    width: 300px;
+    height: 80px;
+    margin-left: 30px;
+}
+
+#logo{
+    width: 320px;
+    float: left;
+    margin-top: 20px;
+    animation: 3s entradalogo 1;
+}
+
+
+#logo img:hover{
+    filter: brightness(5);
+}
+
+/*CABECERA*/
+
+
+
+
+
+
+
+/*MENU-HORIZONTAL*/
+#horizontal{
+    max-width: 1000px;
+    min-height: 50px;
+    /* Permalink - use to edit and share this gradient. Enlace permanente - úsalo para editar y compartir este gradiente: https://colorzilla.com/gradient-editor/#ffb76b+0,ffa73d+21,ff7c00+61,ff7f04+100 */
+background: radial-gradient(ellipse at center,  rgba(255,183,107,1) 0%,rgba(255,167,61,1) 21%,rgba(255,124,0,1) 61%,rgba(255,127,4,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    margin: 0 auto;
+}
+
+#horizontal ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+#horizontal a{
+    color: #fff;
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    font-family: Arial;
+    font-size: 18px;
+}
+
+#horizontal a:hover{
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffa84c+0,ff7b0d+99 */
+background: radial-gradient(ellipse at center,  rgba(255,168,76,1) 0%,rgba(255,123,13,1) 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+#horizontal ul ul{
+    display: none;
+    position: absolute;
+}
+
+#horizontal ul li:hover ul{
+    display: block;
+}
+
+/*MENU-HORIZONTAL*/
+
+
+.slider{
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+}
+
+.slider ul{
+    display: flex;
+    animation: cambio 15s infinite;
+    animation-direction: alternate;
+    width: 400%;
+}
+
+.slider li{
+    width: 100%;
+    list-style: none;
+}
+
+.slider img{
+    width: 100%;
+    height: 100%;
+}
+
+@keyframes cambio{
+    0%{margin-left: 0%;}
+    20%{margin-left: 0%;}
+
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+
+    75%{margin-left: -300%;}
+    100%{margin-left: -300%;}
+}
+
+
+#banner{
+    max-width: 1000px;
+    min-height: 250px;
+    background: #fff;
+    margin: 0 auto;
+}
+
+#contenedor{
+    max-width:1000px;
+    min-height:700px;
+    background: #fff;
+    margin: 0 auto;
+}
+
+
+
+
+
+/*MENU-VERTICAL*/
+#vertical{
+    width: 300px;
+    min-height: 700px;
+    background: rgb(110, 53, 0);
+    float: left;
+}
+
+#vertical ul{
+    list-style: none;
+    padding: 10px;
+}
+
+#vertical a{
+    display: block;
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    font-family: arial;
+    font-size: 18px;
+    /* Permalink - use to edit and share this gradient. Enlace permanente - úsalo para editar y compartir este gradiente: https://colorzilla.com/gradient-editor/#ff670f+0,c94d00+27 */
+background: linear-gradient(to bottom,  rgb(255,103,15) 0%,rgb(201,77,0) 27%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+}
+
+#vertical a:hover{
+    /* Permalink - use to edit and share this gradient. Enlace permanente - úsalo para editar y compartir este gradiente: https://colorzilla.com/gradient-editor/#ff670f+0,f25c00+68,c94d00+79 */
+background: linear-gradient(45deg,  rgba(255,103,15,1) 0%,rgba(242,92,0,1) 68%,rgba(201,77,0,1) 79%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+#vertical a:hover img{
+    animation: 2s rotacion 1;
+}
+
+/*MENU-VERTICAL*/
+
+
+
+/*CONTENIDO*/
+#contenido{
+    width: 700px;
+    min-height: 700px;
+    background: #fff;
+    float: left;
+    padding: 2px;
+    box-sizing: border-box;
+}
+
+#contenido h2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#contenido p{
+    margin-bottom: 25px;
+    font-family: arial;
+    font-size: 18px;
+    text-align: justify;
+}
+    
+.img-izq{
+    float: left;
+    margin-right: 5px;
+    width: 692px;
+    height: 141px;
+    border: 1px solid #ccc;
+    padding: 1px;
+}
+
+.parah3{
+    text-align: center;
+    color: #000;
+    padding: 10px 10px 0px 10px;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+    
+}
+
+th, td {
+    border: 1px black solid;
+    padding: 13px;
+}
+
+th{
+    background: #ff7d04c4;
+    text-align: center;
+    font-size: 17px;
+}
+
+
+td:nth-child(1){
+    width: 30%;
+    height: 70px;
+    padding: 19px;
+    margin: 50px;
+}
+
+td:nth-child(2),
+td:nth-child(3),
+td:nth-child(4){
+    text-align: center;
+}
+
+ 
+
+/*CONTENIDO*/
+
+
+
+/*PIE-DE-PAGINA*/
+footer{
+    max-width: 1000px;
+    background: #000;
+    margin: 0 auto;
+    border-radius: 0 0 20px 20px;
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+    box-sizing: border-box;
+    font-family: arial;
+    font-size: 18px;
+}
+/*PIE-DE-PAGINA*/
+
+
+
+
+
+/*KEYFRAMES*/
+
+@keyframes entradalogo{
+0%{
+transform: translateX(600px);
+}
+}
+
+
+
+@keyframes rotacion{
+0%{
+    transform: rotate(270deg);
+}
+}
